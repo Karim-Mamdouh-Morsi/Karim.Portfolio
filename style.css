@@ -1,109 +1,66 @@
-/* Reset default styles */
-body, h1, h2, h3, p, ul, li {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
-/* Main container */
 .container {
-    font-family: Arial, sans-serif;
     width: 80%;
     margin: 0 auto;
 }
 
-/* Header Section */
 header {
     display: flex;
-    justify-content: center;
     align-items: center;
+    background-color: #2a3b4c;
+    color: #fff;
     padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 10px;
-}
-
-.header-content {
-    display: flex;
-    align-items: center;
 }
 
 .profile-image {
-    width: 120px;
-    height: 120px;
     border-radius: 50%;
+    width: 100px;
+    height: 100px;
     margin-right: 20px;
-    object-fit: cover;
 }
 
 .header-text h1 {
-    font-size: 24px;
-    color: #333;
+    margin: 0;
+    font-size: 2em;
 }
 
-.header-text p {
-    font-size: 14px;
-    color: #555;
+header p {
+    margin: 5px 0;
 }
 
-/* Remove underlines from links but keep them clickable */
-.contact-link {
-    text-decoration: none;
-    color: inherit;
+h2 {
+    background-color: #2a3b4c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-/* About Me Section */
-.about-me {
-    margin-top: 30px;
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
 }
 
-.about-me h2 {
-    font-size: 22px;
-    color: #333;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.about-me p {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.5;
+ul li {
+    margin-bottom: 10px;
 }
 
-/* Professional Experience Section */
-.experience {
-    margin-top: 30px;
-}
-
-.experience h2 {
-    font-size: 22px;
-    color: #333;
-}
-
-.job {
-    margin-bottom: 20px;
-}
-
-.job h3 {
-    font-size: 18px;
-    color: #333;
-}
-
-.job p {
-    font-size: 14px;
-    color: #555;
-}
-
-.job ul {
-    list-style: none;
-    margin-top: 10px;
-}
-
-.job ul li {
-    font-size: 14px;
-    color: #555;
-}
-
-/* Footer Section */
 footer {
-    margin-top: 30px;
     text-align: center;
-    font-size: 14px;
-    color: #888;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 30px;
 }
