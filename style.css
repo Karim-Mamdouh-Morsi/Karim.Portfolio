@@ -1,109 +1,77 @@
-/* Reset default styles */
-body, h1, h2, h3, p, ul, li {
+/* Basic Layout */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
-/* Main container */
-.container {
-    font-family: Arial, sans-serif;
-    width: 80%;
-    margin: 0 auto;
+.cv-container {
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Header Section */
 header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 10px;
-}
-
-.header-content {
-    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .profile-image {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    margin-right: 20px;
     object-fit: cover;
 }
 
-.header-text h1 {
+.contact-info {
+    margin-left: 20px;
+}
+
+.contact-info h1 {
+    margin: 0;
     font-size: 24px;
+}
+
+section h2 {
     color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.header-text p {
-    font-size: 14px;
-    color: #555;
+.job ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-/* Remove underlines from links but keep them clickable */
-.contact-link {
-    text-decoration: none;
-    color: inherit;
+.job li {
+    margin-bottom: 5px;
 }
 
-/* About Me Section */
-.about-me {
-    margin-top: 30px;
-}
-
-.about-me h2 {
-    font-size: 22px;
-    color: #333;
-}
-
-.about-me p {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.5;
-}
-
-/* Professional Experience Section */
-.experience {
-    margin-top: 30px;
-}
-
-.experience h2 {
-    font-size: 22px;
-    color: #333;
-}
-
-.job {
+/* Work Experience Section */
+.work-experience .job {
     margin-bottom: 20px;
 }
 
 .job h3 {
     font-size: 18px;
-    color: #333;
-}
-
-.job p {
-    font-size: 14px;
     color: #555;
 }
 
-.job ul {
-    list-style: none;
-    margin-top: 10px;
+.education .degree {
+    margin-bottom: 20px;
 }
 
-.job ul li {
-    font-size: 14px;
-    color: #555;
+/* Technical Skills Section */
+.technical-skills ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-/* Footer Section */
-footer {
-    margin-top: 30px;
-    text-align: center;
-    font-size: 14px;
-    color: #888;
+.technical-skills li {
+    margin-bottom: 5px;
 }
