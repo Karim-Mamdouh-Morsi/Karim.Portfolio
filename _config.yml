@@ -3,3 +3,4 @@ description: "Personal CV of Karim Mamdouh Morsi Abdou"
 baseurl: "/Karim.Portfolio"
 url: "https://Karim-Mamdouh-Morsi.github.io/Karim.Portfolio"
 theme: minima
+show_downloads: true
