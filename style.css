@@ -65,6 +65,30 @@ a {
     font-family: inria serif
 }
 
+  .profile-picture {
+    width: 150px; /* Set the width */
+    height: 150px; /* Set the height */
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden; /* Ensures no overflow outside the circle */
+    border: 4px solid #4CAF50; /* Optional border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    display: flex; /* Centering */
+    justify-content: center; /* Centering */
+    align-items: center; /* Centering */
+  }
+
+  .profile-picture img {
+    width: 100%; /* Make the image responsive */
+    height: 100%; /* Make the image responsive */
+    object-fit: cover; /* Ensures the image fits well */
+  }
+
+  /* Optional hover effect */
+  .profile-picture:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    transition: transform 0.3s ease-in-out;
+  }
+
 footer {
     text-align: center;
     font-size: 0.9em;
