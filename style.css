@@ -63,3 +63,16 @@ footer {
     font-size: 14px;
     color: #7f8c8d;
 }
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Optional: Set the color of the link */
+}
+
+/* Adjust the profile image size */
+.profile-image {
+    width: 120px; /* Resize as needed */
+    height: 120px;
+    border-radius: 50%; /* Keep the circular shape */
+    object-fit: cover; /* Ensure the image fits well */
+}
