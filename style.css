@@ -1,77 +1,66 @@
-/* Basic Layout */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
-.cv-container {
-    width: 70%;
-    margin: auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    background-color: #2a3b4c;
+    color: #fff;
+    padding: 20px;
 }
 
 .profile-image {
+    border-radius: 50%;
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
+    margin-right: 20px;
 }
 
-.contact-info {
-    margin-left: 20px;
-}
-
-.contact-info h1 {
+.header-text h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 2em;
 }
 
-section h2 {
-    color: #333;
-    font-size: 20px;
+header p {
+    margin: 5px 0;
+}
+
+h2 {
+    background-color: #2a3b4c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
     margin-bottom: 10px;
 }
 
-.job ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.job li {
-    margin-bottom: 5px;
-}
-
-/* Work Experience Section */
-.work-experience .job {
-    margin-bottom: 20px;
-}
-
-.job h3 {
-    font-size: 18px;
-    color: #555;
-}
-
-.education .degree {
-    margin-bottom: 20px;
-}
-
-/* Technical Skills Section */
-.technical-skills ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.technical-skills li {
-    margin-bottom: 5px;
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 30px;
 }
