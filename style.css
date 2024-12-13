@@ -1,126 +1,65 @@
-/* Global Styles */
-* {
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-}
-
-body {
-    background-color: #f4f7fc;
+    background-color: #f4f4f4;
     color: #333;
-    line-height: 1.6;
 }
 
-.cv-container {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 30px;
-    background-color: white;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-/* Header */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 20px;
+    text-align: center;
     margin-bottom: 30px;
 }
 
-.profile-img {
+header img {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
 }
 
-.header-info h1 {
-    font-size: 2.2rem;
-    font-weight: bold;
-    color: #2c3e50;
+header h1 {
+    font-size: 24px;
+    margin: 10px 0;
 }
 
-.header-info .location, .header-info .contact {
-    font-size: 1rem;
-    color: #7f8c8d;
+header p {
+    font-size: 16px;
 }
 
-.header-info a {
-    color: #3498db;
-    text-decoration: none;
-}
-
-/* Section Styling */
 section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 section h2 {
-    font-size: 1.8rem;
-    color: #34495e;
+    font-size: 20px;
+    color: #2c3e50;
     margin-bottom: 10px;
-}
-
-section p {
-    font-size: 1.1rem;
-    color: #7f8c8d;
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 ul li {
-    font-size: 1.1rem;
     margin-bottom: 10px;
 }
 
-/* Skills Section */
-.skills ul li {
-    display: inline-block;
-    background-color: #3498db;
-    color: white;
-    padding: 8px 15px;
-    margin: 5px;
-    border-radius: 25px;
+ul li ul {
+    margin-left: 20px;
 }
 
-/* Footer */
 footer {
     text-align: center;
-    margin-top: 30px;
+    font-size: 14px;
     color: #7f8c8d;
-}
-
-footer p {
-    font-size: 1rem;
-}
-
-/* Media Queries for Responsiveness */
-@media only screen and (max-width: 768px) {
-    .cv-container {
-        padding: 20px;
-    }
-
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .profile-img {
-        margin-bottom: 15px;
-    }
-
-    .header-info h1 {
-        font-size: 1.8rem;
-    }
-
-    .skills ul li {
-        display: block;
-        margin: 5px 0;
-    }
 }
