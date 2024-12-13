@@ -1,78 +1,109 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+}
+
+/* Main container */
+.container {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.header-text h1 {
+    font-size: 24px;
     color: #333;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
+.header-text p {
+    font-size: 14px;
+    color: #555;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 30px;
+/* Remove underlines from links but keep them clickable */
+.contact-link {
+    text-decoration: none;
+    color: inherit;
 }
 
-header img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+/* About Me Section */
+.about-me {
+    margin-top: 30px;
 }
 
-header h1 {
-    font-size: 24px;
-    margin: 10px 0;
+.about-me h2 {
+    font-size: 22px;
+    color: #333;
 }
 
-header p {
+.about-me p {
     font-size: 16px;
+    color: #555;
+    line-height: 1.5;
 }
 
-section {
+/* Professional Experience Section */
+.experience {
+    margin-top: 30px;
+}
+
+.experience h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.job {
     margin-bottom: 20px;
 }
 
-section h2 {
-    font-size: 20px;
-    color: #2c3e50;
-    margin-bottom: 10px;
+.job h3 {
+    font-size: 18px;
+    color: #333;
 }
 
-ul {
-    list-style-type: none;
-    padding-left: 0;
+.job p {
+    font-size: 14px;
+    color: #555;
 }
 
-ul li {
-    margin-bottom: 10px;
+.job ul {
+    list-style: none;
+    margin-top: 10px;
 }
 
-ul li ul {
-    margin-left: 20px;
+.job ul li {
+    font-size: 14px;
+    color: #555;
 }
 
+/* Footer Section */
 footer {
+    margin-top: 30px;
     text-align: center;
     font-size: 14px;
-    color: #7f8c8d;
-}
-
-a {
-    text-decoration: none;
-    color: #007bff; /* Optional: Set the color of the link */
-}
-
-/* Adjust the profile image size */
-.profile-image {
-    width: 120px; /* Resize as needed */
-    height: 120px;
-    border-radius: 50%; /* Keep the circular shape */
-    object-fit: cover; /* Ensure the image fits well */
+    color: #888;
 }
