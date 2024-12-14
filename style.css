@@ -83,6 +83,19 @@ a {
     transition: transform 0.3s ease-in-out;
   }
 
+.karim_info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.job{
+    justify-self: center;
+}
+
+.myname{
+    justify-self: center;
+}
+
 footer {
     text-align: center;
     font-size: 0.9em;
