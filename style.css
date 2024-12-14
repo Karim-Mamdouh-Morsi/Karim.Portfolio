@@ -19,12 +19,12 @@ header {
     padding: 20px;
 }
 
-.profile-image {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-}
+#.profile-image {
+#    border-radius: 50%;
+#    width: 100px;
+#    height: 100px;
+#    margin-right: 20px;
+#}
 
 .header-text h1 {
     margin: 0;
@@ -65,7 +65,7 @@ a {
     font-family: inria serif
 }
 
-  .profile-picture {
+  .profile-image {
     width: 150px; /* Set the width */
     height: 150px; /* Set the height */
     border-radius: 50%; /* Makes the image circular */
@@ -77,14 +77,14 @@ a {
     align-items: center; /* Centering */
   }
 
-  .profile-picture img {
+  .profile-image img {
     width: 100%; /* Make the image responsive */
     height: 100%; /* Make the image responsive */
     object-fit: cover; /* Ensures the image fits well */
   }
 
   /* Optional hover effect */
-  .profile-picture:hover {
+  .profile-image:hover {
     transform: scale(1.05); /* Slight zoom effect */
     transition: transform 0.3s ease-in-out;
   }
